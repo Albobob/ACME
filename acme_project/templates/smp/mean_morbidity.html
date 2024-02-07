@@ -1,5 +1,9 @@
 {% extends "base.html" %}
- <!-- Имя блока — content, такое же, как в базовом шаблоне -->
- {% block content %}
-   <h1>Это страница для подсчета СМП"!</h1>
- {% endblock %}
+<!-- Имя блока — content, такое же, как в базовом шаблоне -->
+{% block content %}
+{% include "includes/dropdown.html" %}
+<h1>Это страница для подсчета СМП"!</h1>
+
+{% endblock %}
+
+
