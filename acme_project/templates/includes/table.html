@@ -1,0 +1,39 @@
+<!--<table>-->
+{% block head %}
+<style>
+    table {
+        width: 30%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 1%;
+    }
+    th {
+        background-color: #f2f2f2; /* Цвет фона заголовков */
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Цвет фона четных строк */
+    }
+</style>
+{% endblock %}
+ 
+
+<table>
+    <caption>{{table_name}}</caption>
+    <thead>
+        <tr>
+            <th>{{collumn_one_name}}</th>
+            <th>Колонка 2</th>
+        </tr>
+    </thead>
+    <tbody>          
+        {% for region in regions%}
+        <tr>
+            <td>{{ region }}</td>                        
+            <td>Ячейка 1.2</td>
+        </tr>
+        {% endfor %}
+</table>
+<!--</table>-->
