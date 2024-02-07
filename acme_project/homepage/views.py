@@ -1,8 +1,7 @@
 from django.shortcuts import render
 
 
-
 # Create your views here.
-def smp(request):
-    template = 'smp/mean_morbidity.html'
+def homepage(request):
+    template = 'homepage/index.html'
     return render(request, template)
