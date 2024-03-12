@@ -24,16 +24,18 @@
     <caption>{{table_name}}</caption>
     <thead>
         <tr>
-            <th>{{collumn_one_name}}</th>
-            <th>Колонка 2</th>
+            <th>{{first_column}}</th>
+            <th>{{second_column}}</th>
         </tr>
     </thead>
     <tbody>          
         {% for region in regions%}
+            {% if region.district_id == 1 %}
         <tr>
-            <td>{{ region }}</td>                        
-            <td>Ячейка 1.2</td>
+            <td>{{ region.name_ru }}</td>
+            <td>{{region.district__short_ru}}</td>
         </tr>
+            {% endif %}
         {% endfor %}
 </table>
 <!--</table>-->

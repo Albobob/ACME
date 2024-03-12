@@ -1,0 +1,1934 @@
+[
+{
+  "model": "homepage.geocategory",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Страна",
+    "title_eng": "Country"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Округ",
+    "title_eng": "District"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Республика",
+    "title_eng": "Republic"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 4,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Край",
+    "title_eng": "Territories"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Автономный округ",
+    "title_eng": "Autonomous Area "
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 6,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Область",
+    "title_eng": "Region"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Автономная область",
+    "title_eng": "Autonomous Region"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 8,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.108Z",
+    "modified_at": "2024-03-11T18:11:00.112Z",
+    "title_ru": "Город федерального значения",
+    "title_eng": "City"
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Центральный федеральный округ",
+    "short_ru": "ЦФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Северо-Западный федеральный округ",
+    "short_ru": "СЗФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Южный федеральный округ",
+    "short_ru": "ЮФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 4,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Северо-Кавказский федеральный округ",
+    "short_ru": "СКФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Приволжский федеральный округ",
+    "short_ru": "ПФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 6,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Уральский федеральный округ",
+    "short_ru": "УФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Сибирский федеральный округ",
+    "short_ru": "СФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 8,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Дальневосточный федеральный округ",
+    "short_ru": "ДФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 9,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.064Z",
+    "modified_at": "2024-03-11T18:11:00.104Z",
+    "title_ru": "Крымский федеральный округ",
+    "short_ru": "КФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 1,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Российская Федерация",
+    "title_eng": null,
+    "geo_category": 1,
+    "district": null
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 2,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Центральный федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 3,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Северо-Западный федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 4,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Южный федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 5,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Северо-Кавказский федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 6,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Приволжский федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 7,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Уральский федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 8,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Сибирский федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 9,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Дальневосточный федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 10,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Крымский федеральный округ",
+    "title_eng": null,
+    "geo_category": 2,
+    "district": 9
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 11,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Белгородская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 12,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Брянская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 13,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Владимирская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 14,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Воронежская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 15,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ивановская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 16,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Калужская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 17,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Костромская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 18,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Курская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 19,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Липецкая область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 20,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Московская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 21,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Архангельская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 22,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ненецкий автономный округ",
+    "title_eng": null,
+    "geo_category": 5,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 23,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Вологодская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 24,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Калининградская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 25,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ленинградская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 26,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Мурманская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 27,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Новгородская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 28,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Псковская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 29,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "г. Санкт-Петербург",
+    "title_eng": null,
+    "geo_category": 8,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 30,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Адыгея",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 31,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Калмыкия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 32,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Крым",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 33,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Краснодарский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 34,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Астраханская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 35,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Волгоградская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 36,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ростовская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 37,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "г. Севастополь",
+    "title_eng": null,
+    "geo_category": 8,
+    "district": 3
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 38,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Дагестан",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 39,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Ингушетия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 40,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Кабардино-Балкарская Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 41,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Карачаево-Черкесская Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 42,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Северная Осетия — Алания",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 43,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Чеченская Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 44,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ставропольский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 4
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 45,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Башкортостан",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 46,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Марий Эл",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 47,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Мордовия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 48,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Татарстан",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 49,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Удмуртская Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 50,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Чувашская Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 51,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Пермский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 52,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Кировская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 53,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Нижегородская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 54,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Оренбургская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 55,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Пензенская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 56,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Самарская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 57,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Саратовская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 58,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ульяновская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 5
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 59,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Курганская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 60,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Свердловская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 61,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Тюменская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 62,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ханты-Мансийский автономный округ — Югра",
+    "title_eng": null,
+    "geo_category": 5,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 63,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Ямало-Ненецкий автономный округ",
+    "title_eng": null,
+    "geo_category": 5,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 64,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Челябинская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 6
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 65,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Алтай",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 66,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Тыва",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 67,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Хакасия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 68,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Алтайский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 69,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Красноярский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 70,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Иркутская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 71,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Кемеровская область",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 72,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Новосибирская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 73,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Омская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 74,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Томская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 7
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 75,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Бурятия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 76,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Республика Саха (Якутия)",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 77,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Забайкальский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 78,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Камчатский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 79,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Приморский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 80,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Хабаровский край",
+    "title_eng": null,
+    "geo_category": 4,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 81,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Амурская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 82,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Магаданская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 83,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Сахалинская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 84,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Еврейская автономная область",
+    "title_eng": null,
+    "geo_category": 7,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 85,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Чукотский автономный округ",
+    "title_eng": null,
+    "geo_category": 5,
+    "district": 8
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 86,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Донецкая Народная Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 9
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 87,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Луганская Народная Республика",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 9
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 88,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Запорожская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 9
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 89,
+  "fields": {
+    "created_at": "2024-03-11T18:11:00.116Z",
+    "modified_at": "2024-03-11T18:11:00.141Z",
+    "title_ru": "Херсонская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 9
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 90,
+  "fields": {
+    "created_at": "2024-03-12T09:19:11.520Z",
+    "modified_at": "2024-03-12T09:19:11.520Z",
+    "title_ru": "г. Москва",
+    "title_eng": null,
+    "geo_category": 8,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 91,
+  "fields": {
+    "created_at": "2024-03-12T09:26:20.129Z",
+    "modified_at": "2024-03-12T09:26:20.129Z",
+    "title_ru": "Ярославская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 92,
+  "fields": {
+    "created_at": "2024-03-12T09:27:57.178Z",
+    "modified_at": "2024-03-12T09:27:57.178Z",
+    "title_ru": "Орловская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 93,
+  "fields": {
+    "created_at": "2024-03-12T09:32:29.058Z",
+    "modified_at": "2024-03-12T09:32:57.728Z",
+    "title_ru": "Рязанская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 94,
+  "fields": {
+    "created_at": "2024-03-12T09:34:17.194Z",
+    "modified_at": "2024-03-12T09:34:17.194Z",
+    "title_ru": "Смоленская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 95,
+  "fields": {
+    "created_at": "2024-03-12T09:35:06.131Z",
+    "modified_at": "2024-03-12T09:35:06.131Z",
+    "title_ru": "Тамбовская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 96,
+  "fields": {
+    "created_at": "2024-03-12T09:35:37.737Z",
+    "modified_at": "2024-03-12T09:35:37.737Z",
+    "title_ru": "Тверская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 97,
+  "fields": {
+    "created_at": "2024-03-12T09:36:08.560Z",
+    "modified_at": "2024-03-12T09:36:08.560Z",
+    "title_ru": "Тульская область",
+    "title_eng": null,
+    "geo_category": 6,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 98,
+  "fields": {
+    "created_at": "2024-03-12T09:38:13.049Z",
+    "modified_at": "2024-03-12T09:38:13.049Z",
+    "title_ru": "Республика Карелия",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 2
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 99,
+  "fields": {
+    "created_at": "2024-03-12T09:38:36.718Z",
+    "modified_at": "2024-03-12T09:38:36.718Z",
+    "title_ru": "Республика Коми",
+    "title_eng": null,
+    "geo_category": 3,
+    "district": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-12T09:19:11.663Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "90",
+    "object_repr": "г. Москва",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-12T09:26:20.140Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "91",
+    "object_repr": "Ярославская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-12T09:27:57.212Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "92",
+    "object_repr": "Орловская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-12T09:32:29.081Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "93",
+    "object_repr": "Рязанская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-12T09:32:57.779Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "93",
+    "object_repr": "Рязанская область",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name eng\", \"\\u0422\\u0438\\u043f \\u0442\\u0435\\u0440\\u0440\\u0438\\u0442\\u043e\\u0440\\u0438\\u0438\", \"\\u041e\\u043a\\u0440\\u0443\\u0433\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-12T09:34:17.199Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "94",
+    "object_repr": "Смоленская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-12T09:35:06.164Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "95",
+    "object_repr": "Тамбовская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-12T09:35:37.749Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "96",
+    "object_repr": "Тверская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-12T09:36:08.578Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "97",
+    "object_repr": "Тульская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-12T09:38:13.065Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "98",
+    "object_repr": "Республика Карелия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-12T09:38:36.729Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "99",
+    "object_repr": "Республика Коми",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add district name",
+    "content_type": 1,
+    "codename": "add_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change district name",
+    "content_type": 1,
+    "codename": "change_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete district name",
+    "content_type": 1,
+    "codename": "delete_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view district name",
+    "content_type": 1,
+    "codename": "view_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add geo category",
+    "content_type": 2,
+    "codename": "add_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change geo category",
+    "content_type": 2,
+    "codename": "change_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete geo category",
+    "content_type": 2,
+    "codename": "delete_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view geo category",
+    "content_type": 2,
+    "codename": "view_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add territorial unit",
+    "content_type": 3,
+    "codename": "add_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change territorial unit",
+    "content_type": 3,
+    "codename": "change_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete territorial unit",
+    "content_type": 3,
+    "codename": "delete_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view territorial unit",
+    "content_type": 3,
+    "codename": "view_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 4,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 4,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 4,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 4,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 5,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 5,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 5,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 5,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 6,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 6,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 6,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 6,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 7,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 8,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 8,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 8,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 8,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 9,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 9,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 9,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 9,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$LHRkv7sf7PDEd5mhg0x5J0$VdEHvP7LrS9tAwxh4MWejfDIecSOvGmzkxGDiI/erwo=",
+    "last_login": "2024-03-11T19:21:07.737Z",
+    "is_superuser": true,
+    "username": "albert",
+    "first_name": "",
+    "last_name": "",
+    "email": "98ngrv@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-11T19:00:01.611Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "homepage",
+    "model": "districtname"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "homepage",
+    "model": "geocategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "homepage",
+    "model": "territorialunit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mrwk5tqbm71x0m7rq0v4w09dh5fcb0cc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEww6N16d5vIMAMUjU0Ke3K-O_apAvd3nPOfYkQt7WGrfMSJhJnocXpd0sxP7jtgO6x3WaZ57YuU5K7Ig_a5XUmfl4O9--gxl6_tYKhaPTFR58IFVo3EBhyzMYZnYzDSKWAokIWLBCxZgvZMI44klPi_QHZ3TfP:1rjlCt:UwQgFPvnrm39K8zzSonftelCNMAvvnZmI2tEmIay2UY",
+    "expire_date": "2024-03-25T19:21:07.881Z"
+  }
+}
+]
