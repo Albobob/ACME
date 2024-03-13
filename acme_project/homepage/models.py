@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator
 
 
 # Create your models here.
@@ -63,6 +64,7 @@ class DistrictName(BaseModel):
     class Meta:
         verbose_name = 'Округ'
         verbose_name_plural = 'Округа'
+        ordering = ('id',)
 
     def __str__(self):
         return self.short_ru
@@ -100,14 +102,16 @@ class TerritorialUnit(BaseModel):
 
 
 class Contingents(BaseModel):
-    age = models.CharField(
-        max_length=256,
-        blank=False,
+    age = models.PositiveSmallIntegerField(
+        validators=[MaxValueValidator(122)],
+        blank=True,
+        null=True,
         verbose_name='Возраст'
     )
     sex = models.CharField(
         max_length=256,
-        blank=False,
+        blank=True,
+        null=True,
         verbose_name='Пол'
     )
 
@@ -211,10 +215,19 @@ class TableForm(models.Model):
         return self.title_ru
 
 
-class Period(BaseModel):
+class PeriodMonth(BaseModel):
     class Meta:
-        verbose_name = 'Период отчета'
-        verbose_name_plural = 'Период отчета'
+        verbose_name = 'Месяц'
+        verbose_name_plural = 'Месяцы'
+
+    def __str__(self):
+        return self.title_ru
+
+
+class PeriodYear(BaseModel):
+    class Meta:
+        verbose_name = 'Год'
+        verbose_name_plural = 'Года'
 
     def __str__(self):
         return self.title_ru

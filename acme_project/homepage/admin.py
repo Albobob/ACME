@@ -2,9 +2,12 @@ from django.contrib import admin
 
 # Register your models here.
 from .models import DistrictName, TerritorialUnit, GeoCategory, StatForm
-from .models import TableForm, Period, NameOfDiseases
+from .models import TableForm, PeriodMonth, PeriodYear, NameOfDiseases, Units, \
+    Contingents
 
 admin.site.register(GeoCategory)
+admin.site.register(PeriodMonth)
+admin.site.register(PeriodYear)
 
 
 class DistrictNameAdmin(admin.ModelAdmin):
@@ -70,15 +73,6 @@ class TableFormAdmin(admin.ModelAdmin):
 admin.site.register(TableForm, TableFormAdmin)
 
 
-class PeriodAdmin(admin.ModelAdmin):
-    list_display = (
-        'title_ru',
-    )
-
-
-admin.site.register(Period, PeriodAdmin)
-
-
 class NameOfDiseasesAdmin(admin.ModelAdmin):
     list_display = (
         'title_ru',
@@ -86,3 +80,21 @@ class NameOfDiseasesAdmin(admin.ModelAdmin):
 
 
 admin.site.register(NameOfDiseases, NameOfDiseasesAdmin)
+
+
+class UnitsAdmin(admin.ModelAdmin):
+    list_display = (
+        'title_ru',
+    )
+
+
+admin.site.register(Units, UnitsAdmin)
+
+
+class ContingentsAdmin(admin.ModelAdmin):
+    list_display = (
+        'title_ru',
+    )
+
+
+admin.site.register(Contingents)

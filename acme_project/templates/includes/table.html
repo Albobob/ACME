@@ -30,12 +30,12 @@
     </thead>
     <tbody>          
         {% for region in regions%}
-            {% if region.district_id == 1 %}
+
         <tr>
-            <td>{{ region.name_ru }}</td>
+            <td>{{ region.title_ru }}</td>
             <td>{{region.district__short_ru}}</td>
         </tr>
-            {% endif %}
+
         {% endfor %}
 </table>
 <!--</table>-->

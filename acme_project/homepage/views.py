@@ -1,22 +1,11 @@
 from django.shortcuts import render
-from .models import TerritorialUnit, DistrictName
+from .models import TerritorialUnit
 
 TABLE_NAME = 'Регионы Российской Федерации'
 FIRST_COLUMN = 'Регион'
 SECOND_COLUMN = 'Округ'
 
-# tu = TerritorialUnit.objects.select_related('district').values('id',
-#                                                                'name_ru',
-#                                                                'district_id',
-#                                                                'district__short_ru',
-#                                                                'geo_category_id',
-#                                                                'created_at',
-#                                                                'modified_at')
-
-# for i in tu:
-#     print(i['district__short_ru'])
-
-tu = None
+tu = TerritorialUnit.objects.values('title_ru', 'district__short_ru')
 
 
 # Create your views here.
