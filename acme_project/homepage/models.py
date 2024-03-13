@@ -6,14 +6,14 @@ class BaseModel(models.Model):
     title_ru = models.CharField(
         max_length=256,
         null=False,
-        blank=True,
+        blank=False,
         unique=True,
         verbose_name='Название'
     )
 
     description = models.TextField(
         null=True,
-        blank=False,
+        blank=True,
         verbose_name='Описание'
     )
 
@@ -139,3 +139,109 @@ class ResidencePlace(BaseModel):
     def __str__(self):
         return self.title_ru
 
+
+class StatForm(models.Model):
+    title_ru = models.CharField(
+        max_length=256,
+        null=False,
+        blank=True,
+        unique=False,
+        verbose_name='Название'
+    )
+
+    description = models.TextField(
+        null=True,
+        blank=True,
+        verbose_name='Описание'
+    )
+
+    num_form = models.CharField(
+        max_length=10,
+        unique=True,
+        verbose_name='Номер формы',
+
+    )
+
+    count_table = models.PositiveSmallIntegerField(
+        verbose_name='Кол-во таблиц',
+        null=True,
+    )
+
+    class Meta:
+        verbose_name = 'Отчетная форма'
+        verbose_name_plural = 'Отчетные формы'
+
+    def __str__(self):
+        return self.num_form
+
+
+class TableForm(models.Model):
+    title_ru = models.CharField(
+        max_length=256,
+        null=False,
+        blank=True,
+        unique=True,
+        verbose_name='Название'
+    )
+
+    description = models.TextField(
+        null=True,
+        blank=True,
+        verbose_name='Описание'
+    )
+
+    table_number = models.SmallIntegerField(
+        null=True,
+        blank=True,
+        verbose_name='Номер таблицы'
+    )
+
+    form = models.ForeignKey(
+        StatForm,
+        on_delete=models.CASCADE,
+        verbose_name='Номер формы',
+    )
+
+    class Meta:
+        unique_together = ('table_number', 'form')
+        verbose_name = 'Таблицы форм'
+        verbose_name_plural = 'Таблицы форм'
+
+    def __str__(self):
+        return self.title_ru
+
+
+class Period(BaseModel):
+    class Meta:
+        verbose_name = 'Период отчета'
+        verbose_name_plural = 'Период отчета'
+
+    def __str__(self):
+        return self.title_ru
+
+
+class NameOfDiseases(BaseModel):
+    short_name = models.CharField(
+        max_length=128,
+        verbose_name='Сокр. название'
+    )
+
+    table_number = models.ForeignKey(
+        TableForm,
+        on_delete=models.CASCADE,
+        verbose_name='Название таблицы'
+    )
+
+    first_name = models.BooleanField(
+        verbose_name='Форма №1'
+    )
+    second_name = models.BooleanField(
+        verbose_name='Форма №2'
+    )
+
+    class Meta:
+        verbose_name = 'Название нозологии'
+        verbose_name_plural = 'Список нозологий'
+
+    def __str__(self):
+        return self.short_name

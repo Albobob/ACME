@@ -1,7 +1,8 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import DistrictName, TerritorialUnit, GeoCategory
+from .models import DistrictName, TerritorialUnit, GeoCategory, StatForm
+from .models import TableForm, Period, NameOfDiseases
 
 admin.site.register(GeoCategory)
 
@@ -20,7 +21,7 @@ class TerritorialUnitAdmin(admin.ModelAdmin):
     list_display = (
         'title_ru',
         'district',
-        'geo_category'
+        'geo_category',
     )
 
     list_editable = (
@@ -35,3 +36,53 @@ class TerritorialUnitAdmin(admin.ModelAdmin):
 
 
 admin.site.register(TerritorialUnit, TerritorialUnitAdmin)
+
+
+class StatFormAdmin(admin.ModelAdmin):
+    list_display = (
+        'num_form',
+        'title_ru',
+        'count_table',
+
+    )
+
+    list_editable = (
+
+    )
+
+
+admin.site.register(StatForm, StatFormAdmin)
+
+
+class TableFormAdmin(admin.ModelAdmin):
+    list_display = (
+        'form',
+        'title_ru',
+        'table_number',
+
+    )
+
+    list_editable = (
+
+    )
+
+
+admin.site.register(TableForm, TableFormAdmin)
+
+
+class PeriodAdmin(admin.ModelAdmin):
+    list_display = (
+        'title_ru',
+    )
+
+
+admin.site.register(Period, PeriodAdmin)
+
+
+class NameOfDiseasesAdmin(admin.ModelAdmin):
+    list_display = (
+        'title_ru',
+    )
+
+
+admin.site.register(NameOfDiseases, NameOfDiseasesAdmin)

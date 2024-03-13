@@ -1,0 +1,1006 @@
+[
+{
+  "model": "smp.smp",
+  "pk": 1,
+  "fields": {
+    "territorial_unit": 1,
+    "value": 5.65,
+    "form": 1,
+    "name_of_diseases": 1,
+    "from_to_year": "2010_2022",
+    "from_year": "2010-03-01",
+    "to_year": "2024-03-01",
+    "created_at": "2024-03-13T10:50:35.358Z",
+    "modified_at": "2024-03-13T10:50:35.358Z"
+  }
+},
+{
+  "model": "smp.smp",
+  "pk": 2,
+  "fields": {
+    "territorial_unit": 1,
+    "value": 2.6,
+    "form": 1,
+    "name_of_diseases": 1,
+    "from_to_year": "2012_2024",
+    "from_year": "2012-03-01",
+    "to_year": "2024-03-01",
+    "created_at": "2024-03-13T10:58:03.748Z",
+    "modified_at": "2024-03-13T10:58:03.748Z"
+  }
+},
+{
+  "model": "homepage.geocategory",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Область",
+    "description": "",
+    "created_at": "2024-03-13T10:49:40.095Z",
+    "modified_at": "2024-03-13T10:49:40.095Z",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.districtname",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Центральный федеральный округ",
+    "description": "",
+    "created_at": "2024-03-13T10:48:17.470Z",
+    "modified_at": "2024-03-13T10:48:17.470Z",
+    "short_ru": "ЦФО",
+    "title_eng": null
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Брянская область",
+    "description": "",
+    "created_at": "2024-03-13T10:49:46.747Z",
+    "modified_at": "2024-03-13T10:49:46.747Z",
+    "title_eng": null,
+    "geo_category": 1,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.territorialunit",
+  "pk": 2,
+  "fields": {
+    "title_ru": "Белгородская облатсь",
+    "description": "",
+    "created_at": "2024-03-13T10:57:15.277Z",
+    "modified_at": "2024-03-13T10:57:15.277Z",
+    "title_eng": null,
+    "geo_category": 1,
+    "district": 1
+  }
+},
+{
+  "model": "homepage.statform",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Сведения об инфекционных и паразитарных заболеваниях",
+    "description": "",
+    "num_form": "01",
+    "count_table": 3
+  }
+},
+{
+  "model": "homepage.tableform",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Инфекционные заболевания",
+    "description": "",
+    "table_number": 1,
+    "form": 1
+  }
+},
+{
+  "model": "homepage.nameofdiseases",
+  "pk": 1,
+  "fields": {
+    "title_ru": "Брюшной тиф",
+    "description": "",
+    "created_at": "2024-03-13T10:49:06.652Z",
+    "modified_at": "2024-03-13T10:49:06.652Z",
+    "short_name": "Брюшной тиф",
+    "table_number": 1,
+    "first_name": true,
+    "second_name": false
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-13T10:48:17.480Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "ЦФО",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-13T10:48:29.661Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-13T10:48:53.943Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Инфекционные заболевания",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-13T10:49:06.683Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Брюшной тиф",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-13T10:49:40.107Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "Область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-13T10:49:46.781Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Брянская область",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-13T10:50:35.379Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "1",
+    "object_repr": "Smp object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-13T10:57:15.286Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Белгородская облатсь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-13T10:58:03.756Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "Smp object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add СМП",
+    "content_type": 1,
+    "codename": "add_smp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change СМП",
+    "content_type": 1,
+    "codename": "change_smp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete СМП",
+    "content_type": 1,
+    "codename": "delete_smp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view СМП",
+    "content_type": 1,
+    "codename": "view_smp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add Контингент",
+    "content_type": 2,
+    "codename": "add_contingents"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change Контингент",
+    "content_type": 2,
+    "codename": "change_contingents"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete Контингент",
+    "content_type": 2,
+    "codename": "delete_contingents"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view Контингент",
+    "content_type": 2,
+    "codename": "view_contingents"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add Округ",
+    "content_type": 3,
+    "codename": "add_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change Округ",
+    "content_type": 3,
+    "codename": "change_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete Округ",
+    "content_type": 3,
+    "codename": "delete_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view Округ",
+    "content_type": 3,
+    "codename": "view_districtname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add Тип территории",
+    "content_type": 4,
+    "codename": "add_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change Тип территории",
+    "content_type": 4,
+    "codename": "change_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete Тип территории",
+    "content_type": 4,
+    "codename": "delete_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view Тип территории",
+    "content_type": 4,
+    "codename": "view_geocategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add Период отчета",
+    "content_type": 5,
+    "codename": "add_period"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change Период отчета",
+    "content_type": 5,
+    "codename": "change_period"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete Период отчета",
+    "content_type": 5,
+    "codename": "delete_period"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view Период отчета",
+    "content_type": 5,
+    "codename": "view_period"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add residence place",
+    "content_type": 6,
+    "codename": "add_residenceplace"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change residence place",
+    "content_type": 6,
+    "codename": "change_residenceplace"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete residence place",
+    "content_type": 6,
+    "codename": "delete_residenceplace"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view residence place",
+    "content_type": 6,
+    "codename": "view_residenceplace"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Отчетная форма",
+    "content_type": 7,
+    "codename": "add_statform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Отчетная форма",
+    "content_type": 7,
+    "codename": "change_statform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Отчетная форма",
+    "content_type": 7,
+    "codename": "delete_statform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Отчетная форма",
+    "content_type": 7,
+    "codename": "view_statform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Единица измерения",
+    "content_type": 8,
+    "codename": "add_units"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Единица измерения",
+    "content_type": 8,
+    "codename": "change_units"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Единица измерения",
+    "content_type": 8,
+    "codename": "delete_units"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Единица измерения",
+    "content_type": 8,
+    "codename": "view_units"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Территориальная единица",
+    "content_type": 9,
+    "codename": "add_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Территориальная единица",
+    "content_type": 9,
+    "codename": "change_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Территориальная единица",
+    "content_type": 9,
+    "codename": "delete_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Территориальная единица",
+    "content_type": 9,
+    "codename": "view_territorialunit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Таблицы форм",
+    "content_type": 10,
+    "codename": "add_tableform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Таблицы форм",
+    "content_type": 10,
+    "codename": "change_tableform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Таблицы форм",
+    "content_type": 10,
+    "codename": "delete_tableform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Таблицы форм",
+    "content_type": 10,
+    "codename": "view_tableform"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Название нозологии",
+    "content_type": 11,
+    "codename": "add_nameofdiseases"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Название нозологии",
+    "content_type": 11,
+    "codename": "change_nameofdiseases"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Название нозологии",
+    "content_type": 11,
+    "codename": "delete_nameofdiseases"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Название нозологии",
+    "content_type": 11,
+    "codename": "view_nameofdiseases"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 12,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 12,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 12,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 12,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 13,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 13,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 13,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 13,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 14,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 14,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 14,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 14,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 15,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 15,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 15,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 15,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 16,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 16,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 16,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 16,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 17,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 17,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 17,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 17,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$4tLA5rJur5JB3DPtY57IFH$YCYAi2Rgwr0FKGghvNc65zYr0jo/8MwdFtePd4As5kg=",
+    "last_login": "2024-03-13T10:47:47.807Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "a@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-13T10:47:15.738Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "smp",
+    "model": "smp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "homepage",
+    "model": "contingents"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "homepage",
+    "model": "districtname"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "homepage",
+    "model": "geocategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "homepage",
+    "model": "period"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "homepage",
+    "model": "residenceplace"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "homepage",
+    "model": "statform"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "homepage",
+    "model": "units"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "homepage",
+    "model": "territorialunit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "homepage",
+    "model": "tableform"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "homepage",
+    "model": "nameofdiseases"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wgozpsx1q3489qij6y6w6mmm0eez8wh6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAURO_C2hCgwC8u3fcMhM8HqRpISrsy3t026UIzu3lv5s182Nbit54WPxO7Mskuvx2G-Ez1APQI9d54bHVdZuSHwk_a-dQovW6n-3dQQi_7GoyTYBVAcqOyJOMooiKMwyCUlg5BZMiUMIDco7W2DiwhZI3RGFLs8wW53Tcl:1rkM9D:aGJuv26GuVvhL-DZdZenVMLx8zFcMfv-fPi1R67Ew7I",
+    "expire_date": "2024-03-27T10:47:47.990Z"
+  }
+}
+]
