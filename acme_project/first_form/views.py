@@ -3,16 +3,194 @@ from .models import FirstForm
 from pprint import pprint
 from statistics import mean
 from django.http import HttpResponseRedirect
+from .forms import FirstChoiceForm
 
-TABLE_NAME = 'Регионы Российской Федерации'
-FIRST_COLUMN = 'Регион'
-SECOND_COLUMN = 'Округ'
 
-territory_filter = 'Российская Федерация'
-year_filter = (2013, 2014, 2015, 2016, 2017, 2018)
+def get_current_years():
+    query_uniq_years = FirstForm.objects.values_list('period_year__title_ru',
+                                                     ).order_by(
+        'period_year__id').distinct()
+
+    return [year[0] for year in query_uniq_years]
+
+
+def get_current_month():
+    query_uniq_month = FirstForm.objects.values_list('period_month__title_ru',
+                                                     ).order_by(
+        'period_month__id').distinct()
+
+    return [year[0] for year in query_uniq_month]
+
+
+def get_month_range(month: list) -> int:
+    if month == [1]:
+        return 1
+    elif month == [1, 2]:
+        return 2
+    elif month == [1, 2, 3] or month == [1, 3]:
+        return 3
+    elif month == [1, 2, 3, 4] or month == [1, 4]:
+        return 4
+    elif month == [1, 2, 3, 4, 5] or month == [1, 5]:
+        return 5
+    elif month == [1, 2, 3, 4, 5, 6] or month == [1, 6]:
+        return 6
+    elif month == [1, 2, 3, 4, 5, 6, 7] or month == [1, 7]:
+        return 7
+    elif month == [1, 2, 3, 4, 5, 6, 7, 8] or month == [1, 8]:
+        return 8
+    elif month == [1, 2, 3, 4, 5, 6, 7, 8, 9] or month == [1, 9]:
+        return 9
+    elif month == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] or month == [1, 10]:
+        return 10
+    elif month == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] or month == [1, 11]:
+        return 11
+    elif month == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] or month == [1, 12]:
+        return 12
+    elif month == [2]:
+        return 13
+    elif month == [2, 3]:
+        return 14
+    elif month == [2, 3, 4] or month == [2, 4]:
+        return 15
+    elif month == [2, 3, 4, 5] or month == [2, 5]:
+        return 16
+    elif month == [2, 3, 4, 5, 6] or month == [2, 6]:
+        return 17
+    elif month == [2, 3, 4, 5, 6, 7] or month == [2, 7]:
+        return 18
+    elif month == [2, 3, 4, 5, 6, 7, 8] or month == [2, 8]:
+        return 19
+    elif month == [2, 3, 4, 5, 6, 7, 8, 9] or month == [2, 9]:
+        return 20
+    elif month == [2, 3, 4, 5, 6, 7, 8, 9, 10] or month == [2, 10]:
+        return 21
+    elif month == [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] or month == [2, 11]:
+        return 22
+    elif month == [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] or month == [2, 12]:
+        return 23
+    elif month == [3]:
+        return 24
+    elif month == [3, 4]:
+        return 25
+    elif month == [3, 4, 5] or month == [3, 5]:
+        return 26
+    elif month == [3, 4, 5, 6] or month == [3, 6]:
+        return 27
+    elif month == [3, 4, 5, 6, 7] or month == [3, 7]:
+        return 28
+    elif month == [3, 4, 5, 6, 7, 8] or month == [3, 8]:
+        return 29
+    elif month == [3, 4, 5, 6, 7, 8, 9] or month == [3, 9]:
+        return 30
+    elif month == [3, 4, 5, 6, 7, 8, 9, 10] or month == [3, 10]:
+        return 31
+    elif month == [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] or month == [3, 11]:
+        return 32
+    elif month == [3, 4, 5, 6, 7, 8, 9, 10, 11, 12] or month == [3, 12]:
+        return 33
+    elif month == [4]:
+        return 34
+    elif month == [4, 5]:
+        return 35
+    elif month == [4, 5, 6] or month == [4, 6]:
+        return 36
+    elif month == [4, 5, 6, 7] or month == [4, 7]:
+        return 37
+    elif month == [4, 5, 6, 7, 8] or month == [4, 8]:
+        return 38
+    elif month == [4, 5, 6, 7, 8, 9] or month == [4, 9]:
+        return 39
+    elif month == [4, 5, 6, 7, 8, 9, 10] or month == [4, 10]:
+        return 40
+    elif month == [4, 5, 6, 7, 8, 9, 10, 11] or month == [4, 11]:
+        return 41
+    elif month == [4, 5, 6, 7, 8, 9, 10, 11, 12] or month == [4, 12]:
+        return 42
+    elif month == [5]:
+        return 43
+    elif month == [5, 6]:
+        return 44
+    elif month == [5, 6, 7] or month == [5, 7]:
+        return 45
+    elif month == [5, 6, 7, 8] or month == [5, 8]:
+        return 46
+    elif month == [5, 6, 7, 8, 9] or month == [5, 9]:
+        return 47
+    elif month == [5, 6, 7, 8, 9, 10] or month == [5, 10]:
+        return 48
+    elif month == [5, 6, 7, 8, 9, 11] or month == [5, 11]:
+        return 49
+    elif month == [5, 6, 7, 8, 9, 11, 12] or month == [5, 12]:
+        return 50
+    elif month == [6]:
+        return 51
+    elif month == [6, 7]:
+        return 52
+    elif month == [6, 7, 8] or month == [6, 8]:
+        return 53
+    elif month == [6, 7, 8, 9] or month == [6, 9]:
+        return 54
+    elif month == [6, 7, 8, 9, 10] or month == [6, 10]:
+        return 55
+    elif month == [6, 7, 8, 9, 10, 11] or month == [6, 11]:
+        return 56
+    elif month == [6, 7, 8, 9, 10, 11, 12] or month == [6, 12]:
+        return 57
+    elif month == [7]:
+        return 58
+    elif month == [7, 8]:
+        return 59
+    elif month == [7, 8, 9] or month == [7, 9]:
+        return 60
+    elif month == [7, 8, 9, 10] or month == [7, 10]:
+        return 61
+    elif month == [7, 8, 9, 10, 11] or month == [7, 11]:
+        return 62
+    elif month == [7, 8, 9, 10, 11, 12] or month == [7, 12]:
+        return 63
+    elif month == [8]:
+        return 64
+    elif month == [8, 9]:
+        return 65
+    elif month == [8, 9, 10] or month == [8, 10]:
+        return 66
+    elif month == [8, 9, 10, 11] or month == [8, 11]:
+        return 67
+    elif month == [8, 9, 10, 11, 12] or month == [8, 12]:
+        return 68
+    elif month == [9]:
+        return 69
+    elif month == [9, 10]:
+        return 70
+    elif month == [9, 10, 11] or month == [9, 11]:
+        return 71
+    elif month == [9, 10, 11, 12] or month == [9, 12]:
+        return 72
+    elif month == [10]:
+        return 73
+    elif month == [10, 11]:
+        return 74
+    elif month == [10, 11, 12] or month == [10, 12]:
+        return 75
+    elif month == [11]:
+        return 76
+    elif month == [11, 12]:
+        return 77
+    elif month == [12]:
+        return 78
+    else:
+        return 0
+
+
+territory_filter = [1]
+year_filter = get_current_years()[-10::]
+month_filter = 1
 
 
 # Create your views here.
+
+
 def check_outliers(data: list):
     result = {
         'outliers_max': None,
@@ -79,9 +257,11 @@ def get_data():
     query = list(FirstForm.objects.values_list('territory__title_ru',
                                                'period_year__title_ru',
                                                'value').filter(
-        territory__title_ru=territory_filter,
+        territory__id__in=territory_filter,
         period_year__title_ru__in=year_filter,
-    ))
+        period_month__id=month_filter,
+
+    ).order_by('territory__id'))
 
     output_data = [
         {
@@ -92,7 +272,7 @@ def get_data():
         } for i in query
     ]
 
-    pprint(output_data)
+    # pprint(output_data)
 
     return output_data
 
@@ -124,9 +304,6 @@ def formatted_data(data: list):
     return output
 
 
-data = formatted_data(get_data())
-
-
 def my_view(request):
     if request.method == 'POST':
         # Логика обновления запроса
@@ -135,14 +312,49 @@ def my_view(request):
 
 
 def first_form(request):
-    years = year_filter
+    TABLE_NAME = 'Регионы Российской Федерации'
+    FIRST_COLUMN = 'Регион'
+    SECOND_COLUMN = 'Округ'
+
+    global territory_filter, year_filter, month_filter
+    if request.method == 'GET':
+        form = FirstChoiceForm(request.GET)
+
+        if form.is_valid():
+            territory_value = form.cleaned_data['territory']
+            territory_filter = territory_value
+
+            years_value = form.cleaned_data['years']
+            year_filter = years_value
+
+            months_value = list(map(int, form.cleaned_data['months']))
+            months = get_month_range(months_value)
+
+            if not months:
+                print('Не верно введен месяц')
+            else:
+                print(month_filter)
+                month_filter = months
+                print(month_filter)
+
+            # Обрабатываем значение territory,
+            # например, сохраняем его или используем по необходимости
+        else:
+            print('Заполните все поля')
+            pass
+    # В случае ошибок формы можно добавить обработку здесь
+
+    else:
+        form = FirstChoiceForm()
+
+    data = formatted_data(get_data())
 
     context = {
+        'form': form,
         'table_name': TABLE_NAME,
         'data': data,
-        'header': years,
-        'row_data': data
-
+        'header': year_filter,
+        'row_data': data,
     }
     template = 'first_form/index.html'
     return render(request, template, context=context)

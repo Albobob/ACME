@@ -6,7 +6,7 @@ from .models import TableForm, PeriodMonth, PeriodYear, NameOfDiseases, Units, \
     Contingents
 
 admin.site.register(GeoCategory)
-admin.site.register(PeriodMonth)
+
 admin.site.register(PeriodYear)
 
 
@@ -98,3 +98,13 @@ class ContingentsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Contingents)
+
+
+class PeriodMonthAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'title_ru',
+    )
+
+
+admin.site.register(PeriodMonth, PeriodMonthAdmin)

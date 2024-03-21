@@ -28,6 +28,44 @@ width: 35   %;
             white-space: pre-wrap;
 }
 
+.form-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-height: 80vh; /* Ограничиваем высоту окна до 70% высоты видимой области (viewport height) */
+  overflow-y: auto; /* Добавляем вертикальную прокрутку, если содержимое не помещается */
+  max-width: 100vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  display: block;
+}
+
+#error-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+        }
+
 
 
 
@@ -37,11 +75,35 @@ width: 35   %;
 </style>
 {% endblock %}
 
+<div id="error-popup">
+    <p id="error-message">Ошибка</p>
+    <button onclick="closeErrorPopup()">Закрыть</button>
+</div>
 
-<form id="refresh-form" method="post">
-    {% csrf_token %}
-    <button type="submit">Обновить запрос</button>
-</form>
+
+
+
+
+<button onclick="toggleForm()">Открыть форму</button>
+<div id="myForm" class="form-container">
+    <form class="form-content" method="GET">
+        <!-- Ваша форма здесь -->
+        {{ form.as_p }}
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+
+<script>
+    function toggleForm() {
+        var form = document.getElementById("myForm");
+        if (form.style.display === "none" || form.style.display === "") {
+            form.style.display = "block";
+        } else {
+            form.style.display = "none";
+        }
+    }
+
+</script>
 
 
 <table>
@@ -70,7 +132,6 @@ width: 35   %;
 <hr>
 
 
-
-<!-- Здесь подставьте ваш JSON-код -->
-<pre class="json-code"> <code>{{ row_data | safe }}</code>
-</pre>
+<!--&lt;!&ndash; Здесь подставьте ваш JSON-код &ndash;&gt;-->
+<!--<pre class="json-code"> <code>{{ row_data | safe }}</code>-->
+<!--</pre>-->
