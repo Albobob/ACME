@@ -20,6 +20,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('smp/', include('smp.urls')),
+    path('first_form/', include('first_form.urls')),
     path('', include('homepage.urls')),
 ]
 

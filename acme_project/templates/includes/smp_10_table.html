@@ -1,0 +1,76 @@
+<!--<smp_10_table>-->
+{% block head %}
+<style>
+    table {
+        width: 40%;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 1%;
+    }
+    th {
+        background-color: #f2f2f2; /* Цвет фона заголовков */
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Цвет фона четных строк */
+    }
+
+.SMP {color: red;}
+
+.json-code {
+width: 35   %;
+            margin: auto;
+            white-space: pre-wrap;
+}
+
+
+
+
+
+
+
+</style>
+{% endblock %}
+
+
+<form id="refresh-form" method="post">
+    {% csrf_token %}
+    <button type="submit">Обновить запрос</button>
+</form>
+
+
+<table>
+    <caption>{{ table_name }}</caption>
+    <thead>
+    <tr>
+        <th>Территория</th>
+        {% for h in header %}
+        <th>{{ h }}</th>
+        {% endfor %}
+        <th>СМП</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in data %}
+    <tr>
+        <td>{{ i.territory }}</td>
+        {% for year, value in i.data.items %}
+        <td>{{ value }}</td>
+        {% endfor %}
+        <td class="SMP">{{ i.smp }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<hr>
+
+
+
+<!-- Здесь подставьте ваш JSON-код -->
+<pre class="json-code"> <code>{{ row_data | safe }}</code>
+</pre>
